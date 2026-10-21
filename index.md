@@ -118,7 +118,7 @@ We treat bank message text with extra care:
 ## 7. Data Retention
 
 - Your data is retained for as long as your account is active.
-- Delete Account in Settings deactivates your account. To permanently delete your account and data, email abdulrahmansadawi@gmail.com from your registered address; we delete it within 30 days. The steps are in Section 13 below.
+- Delete Account in Settings deactivates your account. To permanently delete your account and data, email baqi.app.sup@gmail.com from your registered address; we delete it within 30 days. The steps are in Section 13 below.
 - If your premium subscription expires, your data is preserved — only premium features are restricted. A 14-day grace period applies.
 
 ---
@@ -152,8 +152,8 @@ We will notify you of material changes to this policy via a notification in the 
 
 For privacy questions, data export requests, or account deletion assistance:
 
-**Email:** abdulrahmansadawi@gmail.com  
-**App:** Settings → Help & Support
+**Email:** baqi.app.sup@gmail.com  
+**App:** Settings → Help & Legal → Send Feedback
 
 ---
 
@@ -171,7 +171,7 @@ Open **Settings → Account → Delete Account**. In the version of Baqi install
 
 ### Request deletion by email
 
-1. Send an email to **abdulrahmansadawi@gmail.com** from the email address you registered with in Baqi. We cannot act on a request sent from a different address.
+1. Send an email to **baqi.app.sup@gmail.com** from the email address you registered with in Baqi. We cannot act on a request sent from a different address.
 2. Use the subject line: **Delete my Baqi account**.
 3. We confirm that the request comes from the registered address, delete your account, and reply to confirm.
 
