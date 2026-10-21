@@ -59,7 +59,7 @@ On Android, when Baqi finds a message that looks like it comes from a bank but c
 
 If you say no, nothing is sent automatically. Baqi may ask about a single message and sends it only if you tap to share it.
 
-To withdraw your agreement, email baqi.app.sup@gmail.com from your registered address. We turn sharing off for your account and delete the messages you have already shared. These messages are deleted with your account.
+To withdraw your agreement, email baqi.app.sup@gmail.com from your registered address. We turn sharing off for your account and delete the messages you have already shared.
 
 ---
 
@@ -152,7 +152,8 @@ We will notify you of material changes to this policy via a notification in the 
 
 For privacy questions, data export requests, or account deletion assistance:
 
-**Email:** baqi.app.sup@gmail.com  
+**Email:** baqi.app.sup@gmail.com
+
 **App:** Settings → Help & Legal → Send Feedback
 
 ---
