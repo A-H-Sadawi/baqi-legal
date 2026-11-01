@@ -94,7 +94,7 @@ We do not sell your data. We share data only with the following service provider
 | Provider | Purpose | Data Shared |
 |---|---|---|
 | Supabase | Database hosting | All app data (encrypted at rest by the hosting provider), including the saved text of your bank transaction messages |
-| Anthropic (AI service) | Reading bank messages Baqi cannot read itself | When Baqi cannot read a bank message itself, the text of that message may be sent to extract the amount and the merchant. Names, shop names and numbers in the message may be included. This happens automatically during a scan. |
+| Anthropic (AI service) | Reading bank messages Baqi cannot read itself | When Baqi cannot read a bank message itself, the text of that message may be sent to extract the amount and the merchant. Names, shop names and numbers in the message may be included. This happens automatically during a scan. Long digit runs (5 digits or more, such as account and card numbers) are hidden before sending, keeping only the last 4. |
 | RevenueCat | Subscription management | Your Baqi user ID and purchase status |
 | Sentry | Crash reports | Your user ID, app version, device type and technical details of an error. Baqi's code does not attach message text to error reports. |
 | Clearbit | Merchant and service logos | The website domain of a merchant or service, so its logo can be shown |
@@ -107,7 +107,7 @@ We do not sell your data. We share data only with the following service provider
 We treat bank message text with extra care:
 
 - **Android**: messages are read on your phone. The text of each bank transaction message is saved in your account with the transaction, so Baqi can show how it was detected.
-- **AI service**: a bank message Baqi cannot read itself may be sent to an AI service (Anthropic) to extract the amount and merchant. Names and shop names in the message may still be included.
+- **AI service**: a bank message Baqi cannot read itself may be sent to an AI service (Anthropic) to extract the amount and merchant. Long digit runs (5 digits or more, such as account and card numbers) are hidden before sending, keeping only the last 4. Names and shop names in the message may still be included.
 - **Sharing with the Baqi team**: only if you agree (Section 2.9), a bank-style message Baqi cannot read is sent, unchanged, to the Baqi team so support for that bank can be added. You can also send a report about a single transaction (Section 2.8).
 - Baqi only processes messages that look like bank transaction messages.
 - **iPhone**: Baqi does not read your messages on iPhone (see Section 2.4).
@@ -118,7 +118,7 @@ We treat bank message text with extra care:
 ## 7. Data Retention
 
 - Your data is retained for as long as your account is active.
-- Delete Account in Settings deactivates your account. To permanently delete your account and data, email baqi.app.sup@gmail.com from your registered address; we delete it within 30 days. The steps are in Section 13 below.
+- Delete Account in Settings permanently deletes your account, your data and your sign-in record immediately. You can also request deletion by email or from the [account deletion page](#13-how-to-delete-your-account).
 - If your premium subscription expires, your data is preserved — only premium features are restricted. A 14-day grace period applies.
 
 ---
@@ -129,7 +129,7 @@ You have the right to:
 
 - **Access** your data — all data is visible within the app
 - **Correct** your data — edit any transaction, account, or profile field at any time
-- **Delete** your account and all associated data — Settings → Account → Delete Account deactivates your account; to delete it permanently, see Section 7 and Section 13
+- **Delete** your account and all associated data — Settings → Account → Delete Account, or see the account deletion page
 - **Export** your data — contact us and we will provide a JSON export within 30 days
 - **Withdraw consent** for sharing unrecognized messages (Section 2.9) — email baqi.app.sup@gmail.com from your registered address
 - **Withdraw consent** for SMS reading — disable in device settings at any time
@@ -168,7 +168,7 @@ This policy is governed by the laws of the **Kingdom of Saudi Arabia** and appli
 
 ### In the app
 
-Open **Settings → Account → Delete Account**. In the version of Baqi installed today this **deactivates** your account; it does not remove your data. To delete your account and data permanently, request it by email (below).
+Open Settings → Account → Delete Account and type your email to confirm. Your account, your data and your sign-in record are permanently deleted immediately. This cannot be undone.
 
 ### Request deletion by email
 
@@ -178,10 +178,12 @@ Open **Settings → Account → Delete Account**. In the version of Baqi install
 
 ### What is deleted
 
-Your Baqi account and sign-in record, and everything saved under it: accounts, transactions including the saved text of bank messages, loans, goals, budgets, obligations, receivables, notifications, reports and requests you sent, and your settings. We delete it within 30 days of your request.
+Your Baqi account and sign-in record, and everything saved under it: accounts, transactions including the saved text of bank messages, loans, goals, budgets, obligations, receivables, notifications, reports and requests you sent, and your settings. For email requests, we delete it within 30 days of your request.
 
 Crash reports are held by our error-reporting service under its own retention period and are not part of your Baqi account data.
 
 ### Your Google Play subscription
+
+After your account is deleted, Baqi also asks RevenueCat, the service that manages subscriptions, to delete your customer record. This step is best-effort and does not affect whether your account is deleted.
 
 Deleting your account does **not** cancel a Google Play subscription. Cancel it yourself in Google Play (Play Store → profile → Payments & subscriptions → Subscriptions).
