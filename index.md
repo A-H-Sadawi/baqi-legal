@@ -1,6 +1,6 @@
 # Privacy Policy — Baqi (باقي)
 
-**Last updated:** October 2026
+**Last updated:** November 2026
 
 ---
 
@@ -78,7 +78,7 @@ To withdraw your agreement, email baqi.app.sup@gmail.com from your registered ad
 
 ## 4. Data Storage and Security
 
-- All data is stored in Supabase (PostgreSQL), hosted in the **UAE region** (closest available to KSA).
+- All data is stored in Supabase (PostgreSQL), hosted in Seoul, South Korea. This is outside Saudi Arabia.
 - All data in transit is encrypted using TLS.
 - All data at rest is encrypted by the hosting provider.
 - Row-Level Security (RLS) is enforced on every database table — your data is never accessible to other users.
